@@ -1,0 +1,89 @@
+{
+    "author": "ACW bright",
+    "dependencies": {},
+    "keywords": [
+        "pebble-app"
+    ],
+    "name": "acw-big-tabled-forecast",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "health"
+        ],
+        "displayName": "ACW BIG time with forecast weather table",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "PLACE",
+            "WX"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "data/arrowup.pdc",
+                    "name": "ICON_ARROWUP",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                },
+                {
+                    "file": "data/compass.pdc",
+                    "name": "ICON_COMPASS",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                },
+                {
+                    "file": "data/heart.pdc",
+                    "name": "ICON_HEART",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                },
+                {
+                    "file": "data/steps.pdc",
+                    "name": "ICON_STEPS",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                },
+                {
+                    "file": "data/weather_18.pdc",
+                    "name": "WEATHER_18",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                },
+                {
+                    "file": "data/weather_40.pdc",
+                    "name": "WEATHER_40",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                },
+                {
+                    "file": "data/windsock.pdc",
+                    "name": "ICON_WINDSOCK",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                },
+                {
+                    "file": "data/arrowdown.pdc",
+                    "name": "ICON_ARROWDOWN",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                },
+                {
+                    "characterRegex": "[0-9a-zA-Z ,']",
+                    "file": "fonts/CalvinesRegular-nAW40.ttf",
+                    "name": "FONT_PLACE_CONDENSED_SUBSET_23",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "emery"
+        ],
+        "uuid": "76d81f26-3720-49a0-b325-f3a7020ad942",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
